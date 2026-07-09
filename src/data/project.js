@@ -1,8 +1,16 @@
+// data/project.js
+import ptpn from "../assets/ptpn.png";
+import skinpathoscan from "../assets/skinpathoscan.png";
+import rabraw from "../assets/rabraw.png";
+import kambud from "../assets/kambud.png";
+import em from "../assets/em.png";
+import kbmdsi from "../assets/kbmdsi.png";
+
 export const projects = [
   {
     id: 1,
     title: "Legal Service Website",
-    image: "/src/assets/ptpn.png",
+    image: ptpn,  // ← menggunakan imported variable
     category: "Full Stack Web Application",
     description: "Digital platform for managing legal service requests efficiently.",
     techStack: ["Laravel", "React", "Inertia.js"],
@@ -10,7 +18,7 @@ export const projects = [
   {
     id: 2,
     title: "Sugarcane Detection",
-    image: "/src/assets/ptpn.png",
+    image: ptpn,
     category: "Machine Learning",
     description: "YOLO-based computer vision for sugarcane area detection.",
     techStack: ["Python", "YOLO", "OpenCV"],
@@ -18,7 +26,7 @@ export const projects = [
   {
     id: 3,
     title: "Financial System",
-    image: "/src/assets/ptpn.png",
+    image: ptpn,
     category: "UI/UX Design",
     description: "Designed intuitive interfaces for financial management and reporting.",
     techStack: ["Figma", "Prototyping"],
@@ -26,7 +34,7 @@ export const projects = [
   {
     id: 4,
     title: "SkinPathoScan Website",
-    image: "/src/assets/skinpathoscan.png",
+    image: skinpathoscan,
     category: "AI Healthcare",
     description: "AI-powered platform for skin disease classification and diagnosis.",
     techStack: ["React", "TensorFlow", "Flask"],
@@ -34,7 +42,7 @@ export const projects = [
   {
     id: 5,
     title: "RAJA Brawijaya 2024",
-    image: "/src/assets/rabraw.png",
+    image: rabraw,
     category: "Full Stack Web Application",
     description: "Official website with registration and participant management features.",
     techStack: ["Laravel", "React", "Inertia.js"],
@@ -42,7 +50,7 @@ export const projects = [
   {
     id: 6,
     title: "Kampung Budaya 2024",
-    image: "/src/assets/kambud.png",
+    image: kambud,
     category: "Web Application",
     description: "Registration system for a national cultural event.",
     techStack: ["Laravel", "React", "MySQL"],
@@ -50,7 +58,7 @@ export const projects = [
   {
     id: 7,
     title: "EM UB 2024",
-    image: "/src/assets/em.png",
+    image: em,
     category: "Backend Development",
     description: "Backend services and RESTful APIs for organizational systems.",
     techStack: ["Laravel", "REST API", "MySQL"],
@@ -58,7 +66,7 @@ export const projects = [
   {
     id: 8,
     title: "KBMDSI 2024",
-    image: "/src/assets/kbmdsi.png",
+    image: kbmdsi,
     category: "Organization Website",
     description: "Official organization website for information and activities.",
     techStack: ["Laravel", "Bootstrap", "MySQL"],
